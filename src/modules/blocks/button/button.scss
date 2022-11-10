@@ -10,7 +10,7 @@ $className: "button";
   text-transform: uppercase;
   color: var(--secondary-font-color);
   background: var(--button-bg-gradient);
-  background-color: var(--buton-bg-color);
+  background-color: var(--button-bg-color);
   font-family: $primaryFont;
   @include font-style($weight: 500, $size: 1rem);
 }

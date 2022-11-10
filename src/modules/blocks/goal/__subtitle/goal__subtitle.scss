@@ -1,0 +1,8 @@
+$className: "goal__subtitle";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($size: 1.5rem, $height: 120%);
+  padding-top: 54px;
+  padding-bottom: 34px;
+}

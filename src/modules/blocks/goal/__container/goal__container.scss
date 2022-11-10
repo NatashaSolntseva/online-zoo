@@ -1,0 +1,8 @@
+$className: "goal__container";
+
+.#{$className} {
+  display: flex;
+  gap: 86px;
+  color: var(--var-primary-font-color);
+  padding: 140px 0px 180px 0px;
+}

@@ -1,0 +1,13 @@
+$className: "goal";
+
+.#{$className} {
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: url(/src/images/goal_flower_background.jpg);
+    position: absolute;
+    right: -93px;
+    top: 12px;
+    z-index: -1;
+  }
+}

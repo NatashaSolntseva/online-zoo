@@ -1,0 +1,6 @@
+$className: "goal__text";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($size: 1rem);
+}

@@ -1,0 +1,7 @@
+$className: "goal__title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($size: 3rem, $height: 120%);
+  padding-bottom: 20px;
+}
