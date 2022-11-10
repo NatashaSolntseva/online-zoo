@@ -1,0 +1,11 @@
+$className: "header__link";
+
+.#{$className} {
+  text-decoration: none;
+  font-family: $primaryFont;
+  color: var(--secondary-font-color);
+}
+
+.#{$className}:active {
+  color: var(--active-font-color);
+}

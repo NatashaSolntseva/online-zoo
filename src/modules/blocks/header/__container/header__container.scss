@@ -1,0 +1,12 @@
+$className: "header__container";
+
+.#{$className} {
+  max-width: 1160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px; //TODO PP
+  height: 100%;
+  padding: 14px 0 14px;
+  margin: 0 auto;
+}

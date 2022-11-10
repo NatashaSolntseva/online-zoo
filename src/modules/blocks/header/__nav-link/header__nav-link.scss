@@ -1,0 +1,11 @@
+$className: "header__nav-link";
+
+.#{$className} {
+  font-family: $primaryFont;
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+
+.#{$className}:active {
+  color: var(--active-font-color);
+}

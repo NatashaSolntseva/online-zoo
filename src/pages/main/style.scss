@@ -5,5 +5,18 @@
 //--+++Миксины+++--
 @import "../../modules/mixins.scss";
 @import "../../modules/blocks/page/page.scss";
-//--+++Шапка сайта+++--
-//--+++Подвал сайта+++--
+//--+++Logo+++--
+@import "../../modules/blocks/logo/logo.scss";
+@import "../../modules/blocks/logo/__image/logo__image.scss";
+@import "../../modules/blocks/logo/__title/logo__title.scss";
+//--+++Header+++--
+@import "../../modules/blocks/header/header.scss";
+@import "../../modules/blocks/header/__container/header__container.scss";
+@import "../../modules/blocks/header/__item/header__item.scss";
+@import "../../modules/blocks/header/__burger/header__burger.scss";
+@import "../../modules/blocks/header/__link/header__link.scss";
+@import "../../modules/blocks/header/__nav-item/header__nav-item.scss";
+@import "../../modules/blocks/header/__nav-link/header__nav-link.scss";
+@import "../../modules/blocks/header/__nav-list/header__nav-list.scss";
+@import "../../modules/blocks/header/__nav/header__nav.scss";
+//--+++Footer+++--

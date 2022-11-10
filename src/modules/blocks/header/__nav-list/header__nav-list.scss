@@ -1,0 +1,9 @@
+$className: "header__nav-list";
+
+.#{$className} {
+  @include reset;
+  display: flex;
+  gap: 58px;
+  list-style-type: none;
+  line-height: 0;
+}

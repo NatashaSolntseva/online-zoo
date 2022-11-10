@@ -1,0 +1,12 @@
+$className: "logo";
+
+.#{$className} {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  border: 1px solid var(--secondary-font-color);
+  cursor: pointer;
+  text-decoration: none;
+}
