@@ -1,0 +1,23 @@
+$className: "intro__title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+  position: relative;
+  z-index: 2;
+  padding-bottom: 62px;
+  text-align: center;
+  @include font-style($weight: 700, $size: 6.65rem, $height: 75%);
+  &::after {
+    content: "";
+    position: absolute;
+    height: 465px;
+    width: 465px;
+    background: var(--button-bg-gradient);
+    border-radius: 50%;
+    top: -73px;
+    left: -73px;
+    z-index: -1;
+  }
+}

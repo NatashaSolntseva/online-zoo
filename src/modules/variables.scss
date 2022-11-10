@@ -5,10 +5,16 @@ $secondaryFontSize: 15px;
 :root {
   --var-primary-font-color: #333b41;
   --secondary-font-color: #ffffff;
-  --active-font-color: #4b9200;
+  --active-color: #4b9200;
   --accent-font-color: #ffee2e;
   --primary-bg-color: #e5e5e5;
   --dark-bg-color: #111115;
+  --button-bg-color: #f9804b;
+  --button-bg-gradient: linear-gradient(
+    113.96deg,
+    #f9804b 1.49%,
+    #fe9013 101.44%
+  );
   --gradient-bg-color: linear-gradient(
       315.75deg,
       rgba(254, 210, 144, 0.7) 30.06%,

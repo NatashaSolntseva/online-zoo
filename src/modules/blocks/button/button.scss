@@ -1,0 +1,20 @@
+$className: "button";
+
+.#{$className} {
+  cursor: pointer;
+  height: 54px;
+  width: 298px;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+  background: var(--button-bg-gradient);
+  background-color: var(--buton-bg-color);
+  font-family: $primaryFont;
+  @include font-style($weight: 500, $size: 1rem);
+}
+
+.#{$className}:active {
+  background: var(--active-color);
+}

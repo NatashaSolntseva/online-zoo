@@ -1,0 +1,9 @@
+$className: "intro__container";
+
+.#{$className} {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 0 0 auto;
+  padding: 85px 0 100px 0;
+}

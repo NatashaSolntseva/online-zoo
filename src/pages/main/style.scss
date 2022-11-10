@@ -5,10 +5,15 @@
 //--+++Миксины+++--
 @import "../../modules/mixins.scss";
 @import "../../modules/blocks/page/page.scss";
+@import "../../modules/blocks/page-text/page-text.scss";
 //--+++Logo+++--
 @import "../../modules/blocks/logo/logo.scss";
 @import "../../modules/blocks/logo/__image/logo__image.scss";
 @import "../../modules/blocks/logo/__title/logo__title.scss";
+//--+++Buttons+++--
+@import "../../modules/blocks/button/button.scss";
+@import "../../modules/blocks/button/_type/button_type_mobile.scss";
+@import "../../modules/blocks/button/_position/button_position_intro.scss";
 //--+++Header+++--
 @import "../../modules/blocks/header/header.scss";
 @import "../../modules/blocks/header/__container/header__container.scss";
@@ -19,4 +24,17 @@
 @import "../../modules/blocks/header/__nav-link/header__nav-link.scss";
 @import "../../modules/blocks/header/__nav-list/header__nav-list.scss";
 @import "../../modules/blocks/header/__nav/header__nav.scss";
+//--+++Content+++--
+@import "../../modules/blocks/content/content.scss";
+@import "../../modules/blocks/content/__section/content__section.scss";
+@import "../../modules/blocks/content/__section-container/content__section-container.scss";
+//--+++Intro+++--
+@import "../../modules/blocks/intro/intro.scss";
+@import "../../modules/blocks/intro/__container/intro__container.scss";
+@import "../../modules/blocks/intro/__title/intro__title.scss";
+@import "../../modules/blocks/intro/__title/_accent/intro__title_accent.scss";
+//--+++Goal+++--
+//--+++Pets+++--
+//--+++Feed+++--
+//--+++Testimonials+++--
 //--+++Footer+++--
