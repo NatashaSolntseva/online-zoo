@@ -1,0 +1,18 @@
+$className: "footer__form-input";
+
+.#{$className} {
+  height: 38px;
+  width: 215px;
+  background-color: transparent;
+  border: 0.7px solid #f9804b;
+  border-radius: 2px;
+  color: #bdbdbd;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.#{$className}:invalid {
+  border-color: #d31414;
+  color: #d31414;
+}

@@ -1,0 +1,8 @@
+$className: "footer__form-title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--secondary-font-color);
+  @include font-style($size: 1.5rem, $height: 120%);
+  margin-left: 20px;
+}

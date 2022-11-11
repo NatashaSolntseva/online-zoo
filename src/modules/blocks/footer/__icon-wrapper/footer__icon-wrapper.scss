@@ -1,0 +1,23 @@
+$className: "footer__icon-wrapper";
+
+.#{$className} {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: var(--icon-fill-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+/*.footer__link:hover > .#{$className} {
+  background: #f9804b;
+  transition: 0.7s ease-in;
+}*/
+
+.footer__link:active > .#{$className} {
+  /* background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);  */ /*TODO градиент транзишн не работает*/
+  background: var(--active-color);
+  transition: 0.3s ease-in;
+}

@@ -1,0 +1,8 @@
+$className: "footer__nav";
+
+.#{$className} {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  list-style-type: none;
+}

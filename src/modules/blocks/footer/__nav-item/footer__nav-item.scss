@@ -1,0 +1,5 @@
+$className: "footer__nav-item";
+
+.#{$className}:not(:last-of-type) {
+  margin-right: 58px;
+}

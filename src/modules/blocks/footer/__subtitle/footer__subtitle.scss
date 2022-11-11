@@ -1,0 +1,8 @@
+$className: "footer__subtitle";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--secondary-font-color);
+  font-size: 24px;
+  font-weight: 300;
+}

@@ -1,0 +1,9 @@
+$className: "footer__link_active";
+
+.#{$className} {
+  background: var(--button-bg-gradient);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

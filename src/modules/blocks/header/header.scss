@@ -2,5 +2,5 @@ $className: "header";
 
 .#{$className} {
   background-color: var(--dark-bg-color);
-  height: 80px;
+  min-height: 80px;
 }

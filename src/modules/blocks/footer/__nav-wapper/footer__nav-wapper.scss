@@ -1,0 +1,8 @@
+$className: "footer__nav-wrapper";
+
+.#{$className} {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  align-self: end;
+  padding: 0 32px 0 100px;
+}
