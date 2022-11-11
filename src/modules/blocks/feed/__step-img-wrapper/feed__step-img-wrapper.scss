@@ -1,0 +1,12 @@
+$className: "feed__step-img-wrapper";
+
+.#{$className} {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 168px;
+  width: 168px;
+  background-color: var(--light-bg-color);
+  border: var(--border-color) 1px solid;
+  border-radius: 5px;
+}

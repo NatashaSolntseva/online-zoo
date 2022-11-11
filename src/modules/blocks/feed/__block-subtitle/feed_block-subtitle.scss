@@ -1,0 +1,8 @@
+$className: "feed__block-subtitle";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--var-primary-font-color);
+  @include font-style($size: 2.25rem, $height: 130%);
+  padding-top: 60px;
+}

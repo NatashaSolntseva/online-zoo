@@ -14,6 +14,7 @@
 @import "../../modules/blocks/button/button.scss";
 @import "../../modules/blocks/button/_type/button_type_mobile.scss";
 @import "../../modules/blocks/button/_position/button_position_intro.scss";
+@import "../../modules/blocks/button/_position/button_position_feed.scss";
 //--+++Header+++--
 @import "../../modules/blocks/header/header.scss";
 @import "../../modules/blocks/header/__container/header__container.scss";
@@ -44,6 +45,21 @@
 @import "../../modules/blocks/pets/pets.scss";
 //--+++Feed+++--
 @import "../../modules/blocks/feed/feed.scss";
+@import "../../modules/blocks/feed/__arrow-icon/feed__arrow-icon.scss";
+@import "../../modules/blocks/feed/__block-subtitle/feed_block-subtitle.scss";
+@import "../../modules/blocks/feed/__caption/feed__caption.scss";
+@import "../../modules/blocks/feed/__container/feed__container.scss";
+@import "../../modules/blocks/feed/__step-img-wrapper/feed__step-img-wrapper.scss";
+@import "../../modules/blocks/feed/__steps-card/feed__steps-card.scss";
+@import "../../modules/blocks/feed/__steps-img/feed__steps-img.scss";
+@import "../../modules/blocks/feed/__steps-wrapper/feed__steps-wrapper.scss";
+@import "../../modules/blocks/feed/__subtitle/feed__subtitle.scss";
+@import "../../modules/blocks/feed/__text/feed__text.scss";
+@import "../../modules/blocks/feed/__text/_accent/feed__text_accent_bold.scss";
+@import "../../modules/blocks/feed/__title/feed__title.scss";
+@import "../../modules/blocks/feed/__link/feed__link.scss";
+@import "../../modules/blocks/feed/__paragraph-wrapper/feed__paragraph-wrapper.scss";
+@import "../../modules/blocks/feed/__text/_position/feed__text_position_narrow.scss";
 //--+++Testimonials+++--
 @import "../../modules/blocks/testimonials/testimonials.scss";
 //--+++Footer+++--

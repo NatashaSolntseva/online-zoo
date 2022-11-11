@@ -1,0 +1,12 @@
+$className: "feed__link";
+
+.#{$className} {
+  text-decoration: none;
+  font-family: $primaryFont;
+  color: var(--var-primary-font-color);
+  border-bottom: var(--border-color) 1px solid;
+}
+.#{$className}:active {
+  color: var(--active-color);
+  border-bottom: var(--active-color) 1px solid;
+}

@@ -1,0 +1,9 @@
+$className: "feed__container";
+
+.#{$className} {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blur-bg-color);
+  border-radius: 20px;
+}
