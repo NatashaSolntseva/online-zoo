@@ -1,0 +1,7 @@
+$className: "testimonials__text_type_point";
+
+.#{$className} {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  color: var(--card-light-font-color);
+}

@@ -1,0 +1,10 @@
+$className: "pets__caption-wrapper";
+
+.#{$className} {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-font-color);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 14px;
+}

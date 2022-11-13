@@ -1,0 +1,8 @@
+$className: "testimonials__container";
+
+.#{$className} {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140px 0px 180px 0px;
+}

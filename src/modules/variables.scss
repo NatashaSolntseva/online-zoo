@@ -5,6 +5,8 @@ $secondaryFontSize: 15px;
 :root {
   --var-primary-font-color: #333b41;
   --secondary-font-color: #ffffff;
+  --card-font-color: #767474;
+  --card-light-font-color: #bdbdbd;
   --title-accent-font-color: #fe9013;
   --active-color: #4b9200;
   --accent-font-color: #ffee2e;
@@ -14,6 +16,7 @@ $secondaryFontSize: 15px;
   --dark-bg-color: #111115;
   --light-bg-color: #ffffff;
   --light-btn-bg-color: #f1f3f2;
+  --light-slider-color: #f5f7f6;
   --dark-btn-font-color: #000000;
   --button-bg-color: #f9804b;
   --icon-fill-color: rgba(196, 196, 196, 0.5);
@@ -44,6 +47,15 @@ $secondaryFontSize: 15px;
       #eaf7fe 127.9%,
       #eaf7fe 149.54%
     );
+  --gradient-border-color: linear-gradient(
+    45deg,
+    #febdab 74%,
+    #f3a9f8 66%,
+    #e0d8f0 100%,
+    #eaf7fe 100%,
+    #eaf7fe 100%
+  );
+  --var-card-bg: #f1f3f2;
 }
 
 $animationSpeed: all 0.3s ease;

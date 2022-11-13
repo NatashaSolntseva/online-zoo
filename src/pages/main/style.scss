@@ -17,7 +17,9 @@
 @import "../../modules/blocks/button/_position/button_position_intro.scss";
 @import "../../modules/blocks/button/_position/button_position_feed.scss";
 @import "../../modules/blocks/button/_position/button_position_footer.scss";
+@import "../../modules/blocks/button/_position/button_position_testimonials.scss";
 @import "../../modules/blocks/button/_type/button_type_sqv.scss";
+@import "../../modules/blocks/button/_type/button_type_circle.scss";
 //--+++Header+++--
 @import "../../modules/blocks/header/header.scss";
 @import "../../modules/blocks/header/__container/header__container.scss";
@@ -46,6 +48,27 @@
 @import "../../modules/blocks/goal/__title/goal__title.scss";
 //--+++Pets+++--
 @import "../../modules/blocks/pets/pets.scss";
+@import "../../modules/blocks/pets/__background/pets__background.scss";
+@import "../../modules/blocks/pets/__background/_type/pets__background_flower.scss";
+@import "../../modules/blocks/pets/__background/_type/pets__background_palm.scss";
+@import "../../modules/blocks/pets/__caption-wrapper/pets__caption-wrapper.scss";
+@import "../../modules/blocks/pets/__card-caption/pets__card-caption.scss";
+@import "../../modules/blocks/pets/__card-food-icon/pets__card-food-icon.scss";
+@import "../../modules/blocks/pets/__card-image/pets__card-image.scss";
+@import "../../modules/blocks/pets/__card-text/pets__card-text.scss";
+@import "../../modules/blocks/pets/__card-title/pets__card-title.scss";
+@import "../../modules/blocks/pets/__card/pets__card.scss";
+@import "../../modules/blocks/pets/__container/pets__container.scss";
+@import "../../modules/blocks/pets/__slider-btn/pets__slider-btn.scss";
+@import "../../modules/blocks/pets/__slider-btn/pets__slider-btn.scss";
+@import "../../modules/blocks/pets/__slider-btn/_type/pets__slider-btn_fwrd.scss";
+@import "../../modules/blocks/pets/__slider-btn/_type/pets__slider-btn_back.scss";
+@import "../../modules/blocks/pets/__slider/pets__slider.scss";
+@import "../../modules/blocks/pets/__card-hover/pets__card-hover.scss";
+@import "../../modules/blocks/pets/__card-image-wrapper/pets__card-image-wrapper.scss";
+@import "../../modules/blocks/pets/__card-title/__card-title_color/pets__card-title_color_light.scss";
+@import "../../modules/blocks/pets/__card-text/__card-text_color_light/pets__card-text_color_light.scss";
+
 //--+++Feed+++--
 @import "../../modules/blocks/feed/feed.scss";
 @import "../../modules/blocks/feed/__arrow-icon/feed__arrow-icon.scss";
@@ -65,6 +88,21 @@
 @import "../../modules/blocks/feed/__text/_position/feed__text_position_narrow.scss";
 //--+++Testimonials+++--
 @import "../../modules/blocks/testimonials/testimonials.scss";
+@import "../../modules/blocks/testimonials/__author-container/testimonials__author-container.scss";
+@import "../../modules/blocks/testimonials/__author-img/testimonials__author-img.scss";
+@import "../../modules/blocks/testimonials/__background/testimonials__background.scss";
+@import "../../modules/blocks/testimonials/__container/testimonials__container.scss";
+@import "../../modules/blocks/testimonials/__list-item/testimonials__list-item.scss";
+@import "../../modules/blocks/testimonials/__list/testimonials__list.scss";
+@import "../../modules/blocks/testimonials/__title/testimonials__title.scss";
+@import "../../modules/blocks/testimonials/__text/testimonials__text.scss";
+@import "../../modules/blocks/testimonials/__text/_type/testimonials__text_type_author.scss";
+@import "../../modules/blocks/testimonials/__text/_type/testimonials__text_type_location.scss";
+@import "../../modules/blocks/testimonials/__text/_type/testimonials__text_type_point.scss";
+@import "../../modules/blocks/testimonials/__text/_type/testimonials__text_type_time.scss";
+@import "../../modules/blocks/testimonials/__slider/testimonials__slider.scss";
+@import "../../modules/blocks/testimonials/__slider-btn/testimonials__slider-btn.scss";
+@import "../../modules/blocks/testimonials/__slider-btn/_active/testimonials__slider-btn_active.scss";
 //--+++Footer+++--
 @import "../../modules/blocks/footer/footer.scss";
 @import "../../modules/blocks/footer/__container/footer__container.scss";

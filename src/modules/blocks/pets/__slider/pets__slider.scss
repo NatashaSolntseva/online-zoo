@@ -1,0 +1,10 @@
+$className: "pets__slider";
+
+.#{$className} {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  row-gap: 18px;
+  position: relative;
+  padding-bottom: 80px;
+}

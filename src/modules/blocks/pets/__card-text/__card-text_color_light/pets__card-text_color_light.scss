@@ -1,0 +1,5 @@
+$className: "pets__card-text_color_light";
+
+.#{$className} {
+  color: var(--light-btn-bg-color);
+}

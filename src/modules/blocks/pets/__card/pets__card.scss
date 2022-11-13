@@ -1,0 +1,17 @@
+$className: "pets__card";
+
+.#{$className} {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px transparent;
+  box-sizing: border-box;
+  width: calc((100% - 2 * 30px) / 3);
+  background: var(--button-bg-gradient);
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  &:hover > img {
+    transform: scale(110%);
+    transition: all 5s ease-in-out;
+  }
+}

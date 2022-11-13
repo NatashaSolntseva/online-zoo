@@ -1,0 +1,8 @@
+$className: "testimonials__author-container";
+
+.#{$className} {
+  display: grid;
+  grid-template-columns: 20% 40% 4% 36%;
+  grid-template-rows: repeat(2, 1fr);
+  height: 37px;
+}

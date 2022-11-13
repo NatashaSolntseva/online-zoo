@@ -1,0 +1,8 @@
+$className: "pets__card-title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($weight: 500, $size: 1rem);
+  color: var(--dark-btn-font-color);
+  text-transform: uppercase;
+}

@@ -1,0 +1,7 @@
+$className: "pets__card-text";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($weight: 300, $size: 0.9375rem, $height: 120%);
+  color: var(--dark-btn-font-color);
+}

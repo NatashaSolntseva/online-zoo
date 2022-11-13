@@ -1,4 +1,6 @@
 $className: "pets";
 
 .#{$className} {
+  position: relative;
+  overflow: hidden;
 }

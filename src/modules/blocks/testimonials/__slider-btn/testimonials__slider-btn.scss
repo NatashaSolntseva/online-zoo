@@ -1,0 +1,10 @@
+$className: "testimonials__slider-btn";
+
+.#{$className} {
+  list-style: none;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+}

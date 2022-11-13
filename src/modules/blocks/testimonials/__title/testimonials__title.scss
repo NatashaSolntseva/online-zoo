@@ -1,0 +1,8 @@
+$className: "testimonials__title";
+
+.#{$className} {
+  text-align: center;
+  font-family: $primaryFont;
+  @include font-style($size: 2.25rem, $height: 130%);
+  color: var(--var-primary-font-color);
+}
