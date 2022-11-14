@@ -9,6 +9,7 @@ $secondaryFontSize: 15px;
   --card-light-font-color: #bdbdbd;
   --title-accent-font-color: #fe9013;
   --active-color: #4b9200;
+  --invalid-color: #d31414;
   --accent-font-color: #ffee2e;
   --border-color: #fe9013;
   --primary-bg-color: #e5e5e5;
@@ -58,7 +59,7 @@ $secondaryFontSize: 15px;
   --var-card-bg: #f1f3f2;
 }
 
-$animationSpeed: all 0.3s ease;
+$animationSpeed: all 0.5s ease-in-out;
 
 // Разрешения
 $desktop: 1600px;

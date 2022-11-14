@@ -1,0 +1,8 @@
+$className: "header__nav-link_active";
+
+.#{$className} {
+  pointer-events: none;
+  background: var(--button-bg-gradient);
+  background-clip: text;
+  color: transparent;
+}

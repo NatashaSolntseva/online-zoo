@@ -13,8 +13,11 @@ $className: "button";
   background-color: var(--button-bg-color);
   font-family: $primaryFont;
   @include font-style($weight: 500, $size: 1rem);
-}
-
-.#{$className}:active {
-  background: var(--active-color);
+  &:hover {
+    background: var(--button-bg-color);
+    transition: $animationSpeed;
+  }
+  &:active {
+    background: var(--active-color);
+  }
 }

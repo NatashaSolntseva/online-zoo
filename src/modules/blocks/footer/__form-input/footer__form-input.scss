@@ -1,18 +1,22 @@
 $className: "footer__form-input";
 
 .#{$className} {
-  height: 38px;
-  width: 215px;
+  height: 42px;
+  width: 228px;
   background-color: transparent;
-  border: 0.7px solid #f9804b;
+  border: 0.7px solid var(--button-bg-color);
   border-radius: 2px;
   color: #bdbdbd;
   padding-left: 10px;
   margin-right: 10px;
   margin-left: 15px;
-}
-
-.#{$className}:invalid {
-  border-color: #d31414;
-  color: #d31414;
+  &:valid {
+    border: 0.7px solid var(--active-color);
+  }
+  &:invalid {
+    border: 0.7px solid var(--invalid-color);
+  }
+  &:focus-visible {
+    outline: none;
+  }
 }

@@ -2,4 +2,8 @@ $className: "footer__link_thin";
 
 .#{$className} {
   @include font-style($weight: 100, $size: 1rem, $height: 130%);
+  &:active {
+    color: var(--active-color);
+    text-decoration: underline;
+  }
 }

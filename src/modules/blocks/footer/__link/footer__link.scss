@@ -7,12 +7,15 @@ $className: "footer__link";
   text-decoration: none;
   color: var(--secondary-font-color);
   @include font-style($size: 1rem);
-}
-
-.#{$className}:hover {
-  transform: scale(1.05);
-}
-
-.#{$className}:active {
-  color: var(--active-color);
+  &:hover {
+    transition: $animationSpeed;
+    background: var(--button-bg-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  &:active {
+    color: var(--active-color);
+    background: none;
+  }
 }

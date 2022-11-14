@@ -9,4 +9,16 @@ $className: "logo";
   border: 1px solid var(--secondary-font-color);
   cursor: pointer;
   text-decoration: none;
+  &:hover {
+    transition: $animationSpeed;
+    border: 1px solid var(--button-bg-color);
+  }
+  &:hover > .logo__title {
+    transition: $animationSpeed;
+    color: var(--button-bg-color);
+  }
+  &:hover > .logo__image {
+    transition: $animationSpeed;
+    filter: invert(0.5) sepia(1) saturate(7) hue-rotate(-20deg) contrast(0.9);
+  }
 }

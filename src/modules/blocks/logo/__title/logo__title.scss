@@ -1,9 +1,8 @@
 $className: "logo__title";
 
 .#{$className} {
+  font-family: $primaryFont;
   color: var(--secondary-font-color);
-  font-size: 19px;
-  line-height: 19px;
+  @include font-style($size: 1.1875rem, $height: 120%);
   text-align: center;
-  font-weight: 400;
 }

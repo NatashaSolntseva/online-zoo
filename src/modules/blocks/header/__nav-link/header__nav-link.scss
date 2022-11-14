@@ -4,8 +4,15 @@ $className: "header__nav-link";
   font-family: $primaryFont;
   text-decoration: none;
   color: var(--secondary-font-color);
-}
-
-.#{$className}:active {
-  color: var(--active-color);
+  @include font-style($weight: 500, $size: 1rem);
+  &:hover {
+    transition: $animationSpeed;
+    background: var(--button-bg-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  &:active {
+    color: var(--active-color);
+  }
 }
