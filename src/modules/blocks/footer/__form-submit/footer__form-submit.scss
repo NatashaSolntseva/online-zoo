@@ -1,6 +1,8 @@
 $className: "footer__form-submit";
 
 .#{$className} {
+  padding: 0;
+  box-sizing: border-box;
   height: 42px;
   width: 129px;
   background-color: var(--light-btn-bg-color);

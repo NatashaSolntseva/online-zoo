@@ -3,7 +3,7 @@ $className: "intro";
 .#{$className} {
   height: 43.75rem;
   min-height: 700px;
-  background: url(/src/images/intro__background.jpg);
+  background: url(/src/images/intro__background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

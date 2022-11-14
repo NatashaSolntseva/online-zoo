@@ -7,9 +7,12 @@ $className: "footer__form-input";
   border: 0.7px solid var(--button-bg-color);
   border-radius: 2px;
   color: #bdbdbd;
-  padding-left: 10px;
-  margin-right: 10px;
-  margin-left: 15px;
+  margin-right: 9px;
+  margin-top: 14px;
+  box-sizing: border-box;
+  font-family: $primaryFont;
+  @include font-style($size: 1rem);
+  padding: 10px;
   &:valid {
     border: 0.7px solid var(--active-color);
   }

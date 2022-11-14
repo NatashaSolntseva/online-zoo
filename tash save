@@ -1,0 +1,59 @@
+[33mcommit c30a68e58e05a47cacefd0ebed2e215f72f2cc58[m[33m ([m[1;36mHEAD -> [m[1;32monline-zoo[m[33m)[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Mon Nov 14 16:06:10 2022 +0300
+
+    ref: interactive navigation add
+
+[33mcommit 3c057204d19fb4c6d4cc33abab33bb292815168c[m[33m ([m[1;31morigin/online-zoo[m[33m)[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Mon Nov 14 01:23:21 2022 +0300
+
+    fix: deploy vercel
+
+[33mcommit 13723ca57534467a8fa3268e5289a814b2b71230[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Mon Nov 14 01:13:08 2022 +0300
+
+    feat: testimonials and pets section add
+
+[33mcommit 9bdd4fba345295bc68d0b5046bff848a0a5acfb1[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Sat Nov 12 01:38:07 2022 +0300
+
+    feat: footer add
+
+[33mcommit 5859518e33d0cddf5bc8d54db0a3989645ee9d37[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Fri Nov 11 21:24:06 2022 +0300
+
+    feat: feed section add
+
+[33mcommit 7f1e36a7c00d18655f400b5690951b3965c99277[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Fri Nov 11 00:16:52 2022 +0300
+
+    feat: section goal add
+
+[33mcommit b1f98bf90124ffadcb9143e414361220c6c4cee5[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Thu Nov 10 23:31:54 2022 +0300
+
+    feat: intro section add
+
+[33mcommit 2684365340c2369bb1bf8bb8847081272737d1a8[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Thu Nov 10 21:46:40 2022 +0300
+
+    feat: main page header add
+
+[33mcommit 27e62de85f4286ffe08c7949a09577f0152b0375[m
+Author: NatashaSolntseva <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Wed Nov 9 21:35:20 2022 +0300
+
+    feat: webpack infrastructure is done
+
+[33mcommit 8d65a2644297f0fbb065b5aadc48eec9b3d78f8e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Natasha <84683371+NatashaSolntseva@users.noreply.github.com>
+Date:   Wed Nov 9 19:33:58 2022 +0300
+
+    Initial commit
