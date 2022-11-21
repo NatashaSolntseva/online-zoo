@@ -1,0 +1,8 @@
+$className: "donate__form-bar-title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--dark-btn-font-color);
+  align-self: flex-start;
+  padding-left: 96px;
+}

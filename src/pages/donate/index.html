@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PetStory online - Wath your favorite animal online and donate"
+    />
+    <meta name="author" content="Natasha Solntseva" />
+    <link type="Image/x-icon" href="../../images/favicon.ico" rel="icon" />
     <title>PetStory online. Donate</title>
   </head>
   <body class="page">
@@ -11,7 +17,7 @@
     <header class="header page__section">
       <div class="header__container">
         <div class="header__item">
-          <a class="logo" href="#">
+          <a class="logo" href="./index.html">
             <h1 class="logo__title">PetStory online</h1>
             <img
               class="logo__image"
@@ -24,9 +30,7 @@
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
-                <a href="./" class="header__nav-link header__nav-link_active">
-                  About
-                </a>
+                <a href="./index.html" class="header__nav-link"> About </a>
               </li>
               <li class="header__nav-item">
                 <a href="#" class="header__nav-link"> Map </a>
@@ -35,7 +39,9 @@
                 <a href="#" class="header__nav-link"> Zoos </a>
               </li>
               <li class="header__nav-item">
-                <a href="./donate.html" class="header__nav-link"> Donate </a>
+                <a href="#" class="header__nav-link header__nav-link_active">
+                  Donate
+                </a>
               </li>
               <li class="header__nav-item">
                 <a href="#" class="header__nav-link"> Contact us </a>
@@ -57,7 +63,145 @@
     </header>
     <main class="content">
       <!-- section -->
-      <section></section>
+      <section class="watch"></section>
+      <!-- section -->
+      <section class="donate content__section">
+        <div class="content__section-container donate__container">
+          <h2 class="page-text donate__title">
+            The zoo has officially reopened but we&nbsp;still need your help!
+          </h2>
+          <p class="page-text donate__text">
+            Even though the Zoo has been able to&nbsp;reopen, we&nbsp;are
+            at&nbsp;a&nbsp;greatly reduced capacity with educational programs
+            and public and private events cancelled or&nbsp;postponed for
+            additional months. We&nbsp;need you now more than ever to&nbsp;help
+            ensure that we&nbsp;overcome these challenges. We&nbsp;have been
+            actively raising funds in&nbsp;the community, and we&nbsp;are
+            grateful for the generosity. But much more support is&nbsp;still
+            needed, and we&nbsp;need your help! Please consider a&nbsp;gift
+            today&nbsp;&mdash; no&nbsp;matter what size&nbsp;&mdash;
+            to&nbsp;help&nbsp;us sustain our mission.
+          </p>
+          <h3 class="page-text donate__info-title">Donation Information</h3>
+          <!-- container -->
+          <div class="donate__info-container">
+            <h2 class="page-text donate__container-title">
+              Pick and feed a&nbsp;friend
+            </h2>
+            <p class="page-text donate__container-text">
+              We&nbsp;know the animals bring you joy, and in&nbsp;these
+              extraordinary times, we&rsquo;re glad.
+            </p>
+            <div class="donate__counter-wrapper">
+              <div class="donate__counter">
+                <div class="donate__counter-number">4</div>
+                <div class="page-text donate__counter-text">
+                  Panda diet for the day.
+                </div>
+              </div>
+              <img
+                class="donate__counter-icon"
+                src="../../images/x_icon.svg"
+                alt="x"
+              />
+              <img
+                class="donate__counter-picture"
+                src="../../images/panda_widget.svg"
+                alt="panda"
+              />
+            </div>
+            <form class="donate__form">
+              <p class="page-text donate__form-bar-title">Amount</p>
+              <div class="donate__form-bar">
+                <div class="donate__form-progress">
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="5000" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$5000</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="2000" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$2000</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="1000" />
+                    <span class="donate__radio-btn-highlite"></span>
+                    <span class="donate__radio-btn-caption">$1000</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="500" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$500</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="250" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$250</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="100" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$100</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="50" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$50</span>
+                  </label>
+                  <label class="donate__radio-btns">
+                    <input type="radio" name="price" value="25" />
+                    <span></span>
+                    <span class="donate__radio-btn-caption">$25</span>
+                  </label>
+                </div>
+              </div>
+              <div class="donate__amount-container">
+                <input
+                  class="donate__amount-input"
+                  type="number"
+                  min="1"
+                  max="9999"
+                  placeholder="Another amount"
+                />
+              </div>
+              <div class="donate__periodicity">
+                <div class="donate__periodicity-item">
+                  <label class="donate__periodicity-label" for="radio-monthly">
+                    <input
+                      class="donate__periodicity-input"
+                      type="radio"
+                      name="rate"
+                      id="radio-monthly"
+                      required
+                    />
+                    Monthly</label
+                  >
+                </div>
+                <div class="donate__periodicity-item">
+                  <label class="donate__periodicity-label" for="radio-once">
+                    <input
+                      class="donate__periodicity-input"
+                      type="radio"
+                      name="rate"
+                      id="radio-once"
+                      required
+                      checked
+                    />
+                    Once</label
+                  >
+                </div>
+              </div>
+              <button class="button button_position_donate">
+                feed a&nbsp;friend now
+              </button>
+            </form>
+            <a class="donate__link" href="#">
+              Share with your friends on social networks
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer class="footer page__section">
@@ -74,13 +218,12 @@
         </a>
         <!-- grid 1/3-->
         <div class="footer__form">
-          <h4 class="footer__form-title">Subscribe to our news</h4>
+          <h4 class="page-text footer__form-title">Subscribe to our news</h4>
           <form>
             <input
               class="footer__form-input"
               type="email"
               placeholder="Enter your email"
-              required=""
             />
             <input class="footer__form-submit" type="submit" value="Submit" />
           </form>
@@ -163,7 +306,7 @@
           <nav>
             <ul class="footer__nav">
               <li class="footer__nav-item footer__link">
-                <a class="footer__link footer__link_active" href="./">About</a>
+                <a class="footer__link" href="./index.html"> About </a>
               </li>
               <li class="footer__nav-item footer__link">
                 <a class="footer__link" href="#Map">Map</a>
@@ -180,8 +323,8 @@
         <!-- grid 3/3-->
         <div class="footer__copyright">
           <a class="footer__link footer__link_thin">
-            <p>Designed by Alisa Samborskaya</p>
-            <p>©RSSchool & ©Yem Digital 2021</p>
+            <p class="page-text">Designed by Alisa Samborskaya</p>
+            <p class="page-text">©RSSchool & ©Yem Digital 2021</p>
           </a>
         </div>
       </div>

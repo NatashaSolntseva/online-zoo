@@ -14,10 +14,10 @@
 //--+++Buttons+++--
 @import "../../modules/blocks/button/button.scss";
 @import "../../modules/blocks/button/_type/button_type_mobile.scss";
-@import "../../modules/blocks/button/_position/button_position_intro.scss";
-@import "../../modules/blocks/button/_position/button_position_feed.scss";
-@import "../../modules/blocks/button/_position/button_position_footer.scss";
 @import "../../modules/blocks/button/_type/button_type_sqv.scss";
+@import "../../modules/blocks/button/_type/button_type_circle.scss";
+@import "../../modules/blocks/button/_position/button_position_donate.scss";
+@import "../../modules/blocks/button/_position/button_position_footer.scss";
 //--+++Header+++--
 @import "../../modules/blocks/header/header.scss";
 @import "../../modules/blocks/header/__container/header__container.scss";
@@ -26,8 +26,43 @@
 @import "../../modules/blocks/header/__link/header__link.scss";
 @import "../../modules/blocks/header/__nav-item/header__nav-item.scss";
 @import "../../modules/blocks/header/__nav-link/header__nav-link.scss";
+@import "../../modules/blocks/header/__nav-link/_active/header__nav-link_active.scss";
 @import "../../modules/blocks/header/__nav-list/header__nav-list.scss";
 @import "../../modules/blocks/header/__nav/header__nav.scss";
+//--+++Content+++--
+@import "../../modules/blocks/content/content.scss";
+@import "../../modules/blocks/content/__section/content__section.scss";
+@import "../../modules/blocks/content/__section-container/content__section-container.scss";
+//--+++Watch+++--
+@import "../../modules/blocks/watch/watch.scss";
+//--+++Donate+++--
+@import "../../modules/blocks/donate/donate.scss";
+@import "../../modules/blocks/donate/__container/donate__container.scss";
+@import "../../modules/blocks/donate/__title/donate__title.scss";
+@import "../../modules/blocks/donate/__text/donate__text.scss";
+@import "../../modules/blocks/donate/__link/donate__link.scss";
+@import "../../modules/blocks/donate/__info-title/donate__info-title.scss";
+@import "../../modules/blocks/donate/__info-container/donate__info-container.scss";
+@import "../../modules/blocks/donate/__container-title/donate__container-title.scss";
+@import "../../modules/blocks/donate/__container-text/donate__container-text.scss";
+@import "../../modules/blocks/donate/__counter-wrapper/donate__counter-wrapper.scss";
+@import "../../modules/blocks/donate/__counter-picture/donate__counter-picture.scss";
+@import "../../modules/blocks/donate/__counter-icon/donate__counter-icon.scss";
+@import "../../modules/blocks/donate/__counter-text/donate__counter-text.scss";
+@import "../../modules/blocks/donate/__counter-number/donate__counter-number.scss";
+@import "../../modules/blocks/donate/__periodicity/donate__periodicity.scss";
+@import "../../modules/blocks/donate/__periodicity-item/donate__periodicity-item.scss";
+@import "../../modules/blocks/donate/__periodicity-input/donate__periodicity-input.scss";
+@import "../../modules/blocks/donate/__periodicity-label/donate__periodicity-label.scss";
+@import "../../modules/blocks/donate/__amount-container/donate__amount-container.scss";
+@import "../../modules/blocks/donate/__amount-input/donate__amount-input.scss";
+@import "../../modules/blocks/donate/__form-bar/donate__form-bar.scss";
+@import "../../modules/blocks/donate/__form-progress/donate__form-progress.scss";
+@import "../../modules/blocks/donate/__radio-btns/donate__radio-btns.scss";
+@import "../../modules/blocks/donate/__radio-btn-caption/donate__radio-btn-caption.scss";
+@import "../../modules/blocks/donate/__radio-btn-highlite/donate__radio-btn-highlite.scss";
+@import "../../modules/blocks/donate/__form-bar-title/donate__form-bar-title.scss";
+@import "../../modules/blocks/donate/__form/donate__form.scss";
 //--+++Footer+++--
 @import "../../modules/blocks/footer/footer.scss";
 @import "../../modules/blocks/footer/__container/footer__container.scss";

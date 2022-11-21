@@ -1,0 +1,14 @@
+$className: "donate__periodicity-input";
+
+.#{$className} {
+  appearance: none;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  border: 1px solid var(--title-accent-font-color);
+  border-radius: 50%;
+  margin-right: 10px;
+  &:checked {
+    background-color: var(--active-color);
+  }
+}

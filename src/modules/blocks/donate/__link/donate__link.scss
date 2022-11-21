@@ -1,0 +1,8 @@
+$className: "donate__link";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--var-primary-font-color);
+  text-decoration: none;
+  padding-bottom: 62px;
+}

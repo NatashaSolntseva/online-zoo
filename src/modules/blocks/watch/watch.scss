@@ -1,0 +1,9 @@
+$className: "watch";
+
+.#{$className} {
+  min-height: 386px;
+  background: url(/src/images/intro__background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

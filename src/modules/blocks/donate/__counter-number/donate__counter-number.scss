@@ -1,0 +1,8 @@
+$className: "donate__counter-number";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--var-primary-font-color);
+  @include font-style($weight: 500, $size: 4.5rem, $height: 80%);
+  margin-bottom: 11px;
+}

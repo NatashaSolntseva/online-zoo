@@ -1,0 +1,8 @@
+$className: "donate__info-title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--title-accent-font-color);
+  @include font-style($size: 2.25rem, $height: 130%);
+  padding-bottom: 60px;
+}

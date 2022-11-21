@@ -1,0 +1,14 @@
+$className: "donate__form-bar";
+
+.#{$className} {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 27px;
+  max-width: 976px;
+  width: 100%;
+  background: var(--var-progress-bar-bg-color);
+  border-radius: 2px;
+  margin: 17px auto 98px;
+  padding: 0 28px 0 30px;
+}

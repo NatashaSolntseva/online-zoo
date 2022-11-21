@@ -1,0 +1,8 @@
+$className: "donate__text";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--secondary-font-color);
+  @include font-style($weight: 500, $size: 1rem);
+  padding-bottom: 44px;
+}

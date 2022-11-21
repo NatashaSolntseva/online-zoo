@@ -1,0 +1,7 @@
+$className: "donate__radio-btn-caption";
+
+.#{$className} {
+  font-family: $primaryFont;
+  @include font-style($weight: 500, $size: 1.625rem);
+  color: var(--var-primary-font-color);
+}

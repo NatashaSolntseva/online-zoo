@@ -1,0 +1,8 @@
+$className: "donate__container-title";
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: var(--title-accent-font-color);
+  @include font-style($size: 3rem, $height: 120%);
+  padding: 40px 0 20px 0;
+}
