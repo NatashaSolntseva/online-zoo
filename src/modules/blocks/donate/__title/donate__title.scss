@@ -6,4 +6,6 @@ $className: "donate__title";
   @include font-style($size: 2.25rem, $height: 130%);
   text-transform: uppercase;
   padding-bottom: 10px;
+  align-self: flex-start;
+  text-align: start;
 }

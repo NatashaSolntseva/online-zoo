@@ -11,9 +11,14 @@ $className: "footer__form-submit";
   color: var(--dark-btn-font-color);
   cursor: pointer;
   transition: all 0.5s;
-}
 
-.#{$className}:active {
-  border: 1px solid var(--active-color);
-  color: var(--active-color);
+  &:active {
+    border: 1px solid var(--active-color);
+    color: var(--active-color);
+  }
+
+  &:hover {
+    border: 1px solid var(--border-color);
+    color: var(--title-accent-font-color);
+  }
 }

@@ -4,4 +4,6 @@ $className: "donate__container-text";
   font-family: $primaryFont;
   color: var(--var-primary-font-color);
   @include font-style($size: 1.5rem, $height: 120%);
+  align-self: flex-start;
+  margin-left: 94px; //figma is not centered
 }

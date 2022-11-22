@@ -3,5 +3,7 @@ $className: "donate__counter-icon";
 .#{$className} {
   height: 14px;
   width: 14px;
-  margin: 0 64px 0 11px;
+  align-self: center;
+  margin-left: 11px;
+  padding-top: 25px;
 }

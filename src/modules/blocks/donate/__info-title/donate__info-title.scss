@@ -5,4 +5,6 @@ $className: "donate__info-title";
   color: var(--title-accent-font-color);
   @include font-style($size: 2.25rem, $height: 130%);
   padding-bottom: 60px;
+  align-self: flex-start;
+  text-align: start;
 }

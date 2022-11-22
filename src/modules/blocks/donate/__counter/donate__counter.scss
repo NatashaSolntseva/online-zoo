@@ -1,0 +1,9 @@
+$className: "donate__counter";
+
+.#{$className} {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 55px;
+}

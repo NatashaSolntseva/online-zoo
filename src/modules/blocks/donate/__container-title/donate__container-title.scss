@@ -5,4 +5,5 @@ $className: "donate__container-title";
   color: var(--title-accent-font-color);
   @include font-style($size: 3rem, $height: 120%);
   padding: 40px 0 20px 0;
+  margin-left: -10px; //figma is not centered
 }
