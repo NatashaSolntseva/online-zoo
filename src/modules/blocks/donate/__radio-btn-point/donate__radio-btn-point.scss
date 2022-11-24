@@ -1,0 +1,5 @@
+$className: "donate__radio-btn-point";
+
+.#{$className}:checked + .donate__radio-btn-highlite::before {
+  opacity: 1;
+}
