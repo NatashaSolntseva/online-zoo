@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Hello, World!!!!");var e=document.querySelector(".burger"),o=document.querySelector(".burger__menu");e.addEventListener("click",(function(){o.classList.contains("")?console.log("burger btn close"):console.log("burger btn open")}))})();
