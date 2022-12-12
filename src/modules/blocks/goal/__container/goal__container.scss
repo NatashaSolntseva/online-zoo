@@ -5,4 +5,8 @@ $className: "goal__container";
   gap: 86px;
   color: var(--var-primary-font-color);
   padding: 140px 0px 175px 0px;
+
+  @include media($smallTablet) {
+    padding: 103px 10px 40px 10px;
+  }
 }

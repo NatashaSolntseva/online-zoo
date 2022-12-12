@@ -2,4 +2,8 @@ $className: "footer__nav-item";
 
 .#{$className}:not(:last-of-type) {
   margin-right: 58px;
+
+  @include media($smallTablet) {
+    margin-right: 30px;
+  }
 }

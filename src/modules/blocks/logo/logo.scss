@@ -12,6 +12,10 @@ $className: "logo";
   &:hover {
     transition: $animationSpeed;
     border: 1px solid var(--button-bg-color);
+
+    @include media($smallTablet) {
+      border: none;
+    }
   }
   &:hover > .logo__title {
     transition: $animationSpeed;
@@ -20,5 +24,70 @@ $className: "logo";
   &:hover > .logo__image {
     transition: $animationSpeed;
     filter: invert(0.5) sepia(1) saturate(7) hue-rotate(-20deg) contrast(0.9);
+  }
+
+  &:hover > .logo__image_position_footer {
+    transition: $animationSpeed;
+    filter: invert(0.5) sepia(1) saturate(7) hue-rotate(-20deg) contrast(0.9);
+  }
+
+  @include media($tablet) {
+    border: none;
+  }
+
+  @include media($smallTablet) {
+    width: 47px;
+    height: 29px;
+  }
+
+  &__title {
+    font-family: $primaryFont;
+    color: var(--secondary-font-color);
+    @include font-style($size: 1.1875rem, $height: 120%);
+    text-align: center;
+
+    @include media($smallTablet) {
+      @include font-style($size: 0.75rem, $height: 120%);
+    }
+  }
+
+  &__title_position_footer {
+    @include media($smallTablet) {
+      @include font-style($size: 1.18rem, $height: 120%);
+    }
+  }
+
+  &__image {
+    position: absolute;
+    top: 20px;
+    left: 9px;
+    display: block;
+
+    @include media($smallTablet) {
+      width: 5px;
+      height: 15px;
+      top: 13px;
+      left: 6px;
+    }
+  }
+
+  &__image_position_footer {
+    position: absolute;
+    top: 20px;
+    left: 9px;
+    display: block;
+
+    @include media($smallTablet) {
+      top: -3px;
+      left: 41px;
+    }
+  }
+
+  &_position_footer {
+    @include media($smallTablet) {
+      width: 128px;
+      height: 23px;
+      justify-self: center;
+    }
   }
 }

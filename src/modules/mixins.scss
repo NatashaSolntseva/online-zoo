@@ -8,3 +8,9 @@
   font-size: $size;
   line-height: $height;
 }
+
+@mixin media($screenSize) {
+  @media (max-width: $screenSize) {
+    @content;
+  }
+}

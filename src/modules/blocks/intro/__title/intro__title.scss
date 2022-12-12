@@ -9,15 +9,52 @@ $className: "intro__title";
   padding-bottom: 62px;
   text-align: center;
   @include font-style($weight: 700, $size: 6.65rem, $height: 75%);
-  &::after {
+
+  @include media($Desktop) {
+    @include font-style($weight: 700, $size: 5.32rem, $height: 75%);
+    padding-bottom: 40px;
+  }
+
+  @include media($tablet) {
+    @include font-style($weight: 700, $size: 3.4rem, $height: 75%);
+  }
+
+  @include media($tablet) {
+    @include font-style($weight: 700, $size: 1.6875rem, $height: 75%);
+    padding-bottom: 64px;
+  }
+
+  /*orange circle*/
+  &::before {
     content: "";
-    position: absolute;
     height: 465px;
     width: 465px;
     background: var(--button-bg-gradient);
     border-radius: 50%;
+    position: absolute;
     top: -73px;
     left: -73px;
     z-index: -1;
+
+    @include media($Desktop) {
+      height: 367px;
+      width: 367px;
+      top: -63px;
+      left: -73px;
+    }
+
+    @include media($tablet) {
+      height: 237px;
+      width: 237px;
+      top: -18px;
+      left: -30px;
+    }
+
+    @include media($smallTablet) {
+      height: 119px;
+      width: 119px;
+      top: -20px;
+      left: -22px;
+    }
   }
 }

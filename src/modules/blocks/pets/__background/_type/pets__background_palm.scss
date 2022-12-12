@@ -3,4 +3,10 @@
   left: -590px;
   z-index: -1;
   overflow: hidden;
+
+  @include media($smallTablet) {
+    transform: scale(0.16);
+    bottom: 0px;
+    left: -400px;
+  }
 }

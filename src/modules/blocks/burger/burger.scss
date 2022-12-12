@@ -1,0 +1,102 @@
+$className: "burger";
+
+.#{$className} {
+  width: 18px;
+  height: 10px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+
+  @include media($tablet) {
+    display: flex;
+  }
+
+  &__line {
+    width: 100%;
+    height: 2px;
+    background: var(--secondary-font-color);
+    border-radius: 2px;
+  }
+
+  &__menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+  }
+
+  &__menu_active {
+    display: block;
+  }
+
+  &__menu-container {
+    width: 100%;
+    height: 329px;
+    padding: 10px;
+    background: var(--secondary-font-color);
+
+    @include media($mobile) {
+      height: 320px;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 66px;
+    height: 42px;
+    border: 1px solid var(--title-accent-font-color);
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      transition: $animationSpeed;
+      border: 1px solid var(--var-primary-font-color);
+    }
+    &:hover > .burger__logo-title {
+      transition: $animationSpeed;
+      color: var(--var-primary-font-color);
+    }
+  }
+
+  &__logo-title {
+    font-family: $primaryFont;
+    color: var(--title-accent-font-color);
+    @include font-style($size: 0.95rem, $height: 120%);
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @include reset();
+    padding-top: 33px;
+  }
+
+  &__link {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: $primaryFont;
+    color: var(--var-primary-font-color);
+    @include font-style($size: 1rem);
+
+    &:hover {
+      transition: all 1s;
+      background: var(--button-bg-gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    &:active {
+      color: var(--active-color);
+    }
+  }
+}

@@ -2,4 +2,8 @@ $className: "button_position_feed";
 
 .#{$className} {
   margin-bottom: 59px;
+
+  @include media($smallTablet) {
+    margin-bottom: 40px;
+  }
 }

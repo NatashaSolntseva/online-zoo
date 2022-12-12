@@ -1,9 +1,0 @@
-$className: "testimonials__list";
-
-.#{$className} {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  padding-top: 47px;
-  margin: 0;
-}

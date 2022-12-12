@@ -1,8 +1,0 @@
-$className: "feed__caption";
-
-.#{$className} {
-  font-family: $primaryFont;
-  color: var(--var-primary-font-color);
-  @include font-style($size: 1rem);
-  padding-top: 30px;
-}

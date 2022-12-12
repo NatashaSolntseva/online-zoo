@@ -5,4 +5,9 @@ $className: "goal__subtitle";
   @include font-style($size: 1.5rem, $height: 120%);
   padding-top: 54px;
   padding-bottom: 34px;
+
+  @include media($smallTablet) {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
 }

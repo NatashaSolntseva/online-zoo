@@ -3,4 +3,13 @@ $className: "content__section-container";
 .#{$className} {
   max-width: 1160px;
   margin: 0 auto;
+
+  @include media($tablet) {
+    padding: 0px 15px 0 15px;
+  }
+
+  @include media($smallTablet) {
+    display: flex;
+    flex-direction: column;
+  }
 }

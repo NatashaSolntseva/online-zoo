@@ -2,9 +2,45 @@ $className: "intro";
 
 .#{$className} {
   height: 43.75rem;
-  min-height: 700px;
   background: url(/src/images/intro__background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @include media($Desktop) {
+    height: 504px;
+  }
+
+  @include media($tablet) {
+    height: 373px;
+  }
+
+  @include media($smallTablet) {
+    height: 186px;
+    background-position: center top;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 0 0 auto;
+    padding: 85px 0 100px 0;
+
+    @include media($Desktop) {
+      max-width: 400px;
+      padding: 42px 85px 100px 0;
+    }
+
+    @include media($tablet) {
+      max-width: 255px;
+      //padding: 48px 15px 0 0;
+    }
+
+    @include media($smallTablet) {
+      max-width: 128px;
+      padding: 0;
+      padding-top: 41px;
+    }
+  }
 }
