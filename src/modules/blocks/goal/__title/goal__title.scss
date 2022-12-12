@@ -4,4 +4,9 @@ $className: "goal__title";
   font-family: $primaryFont;
   @include font-style($size: 3rem, $height: 120%);
   padding-bottom: 20px;
+
+  @include media($smallTablet) {
+    @include font-style($size: 1.5rem, $height: 120%);
+    padding-bottom: 10px;
+  }
 }

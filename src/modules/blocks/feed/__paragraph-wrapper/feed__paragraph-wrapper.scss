@@ -2,4 +2,8 @@ $className: "feed__paragraph-wrapper";
 
 .#{$className} {
   padding-left: 40px;
+
+  @include media($smallTablet) {
+    padding-left: 0px;
+  }
 }

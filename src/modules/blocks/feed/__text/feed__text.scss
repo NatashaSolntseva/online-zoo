@@ -4,4 +4,8 @@ $className: "feed__text";
   font-family: $primaryFont;
   color: var(--var-primary-font-color);
   @include font-style($size: 1rem, $height: 130%);
+
+  @include media($smallTablet) {
+    display: none;
+  }
 }

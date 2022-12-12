@@ -2,4 +2,12 @@ $className: "button_position_intro";
 
 .#{$className} {
   align-self: center;
+
+  @include media($tablet) {
+    display: none;
+  }
+
+  &_mobile {
+    align-self: center;
+  }
 }

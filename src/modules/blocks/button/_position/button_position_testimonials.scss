@@ -2,4 +2,10 @@ $className: "button_position_testimonials";
 
 .#{$className} {
   align-self: flex-start;
+
+  @include media($smallTablet) {
+    height: 54px;
+    width: 240px;
+    align-self: center;
+  }
 }

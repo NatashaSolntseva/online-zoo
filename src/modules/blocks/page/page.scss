@@ -1,6 +1,6 @@
 $className: "page";
 
-.#{className} {
+.#{$className} {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -10,4 +10,13 @@ $className: "page";
   min-width: 320px;
   transition: $animationSpeed;
   font-family: $primaryFont;
+
+  @include media($smallTablet) {
+    padding-top: 34px;
+  }
+
+  &__section {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
 }

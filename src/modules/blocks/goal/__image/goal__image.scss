@@ -2,4 +2,12 @@ $className: "goal__image";
 
 .#{$className} {
   height: 403px;
+
+  @include media($Desktop) {
+    height: 408px;
+  }
+
+  @include media($tablet) {
+    display: none;
+  }
 }

@@ -5,4 +5,10 @@ $className: "feed__subtitle";
   color: var(--var-primary-font-color);
   @include font-style($size: 1.5rem, $height: 120%);
   padding-bottom: 40px;
+
+  @include media($smallTablet) {
+    @include font-style($size: 1.125rem, $height: 120%);
+    padding-bottom: 20px;
+    text-align: center;
+  }
 }

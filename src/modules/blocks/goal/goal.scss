@@ -9,5 +9,11 @@ $className: "goal";
     right: -93px;
     top: 12px;
     z-index: -1;
+
+    @include media($smallTablet) {
+      transform: scale(0.35);
+      right: -180px;
+      top: -30%;
+    }
   }
 }

@@ -18,4 +18,8 @@ $className: "footer__link";
     color: var(--active-color);
     background: none;
   }
+
+  @include media($smallTablet) {
+    @include font-style($size: 0.9375rem);
+  }
 }

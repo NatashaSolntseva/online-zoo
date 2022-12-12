@@ -3,4 +3,100 @@ $className: "testimonials";
 .#{$className} {
   position: relative;
   overflow: hidden;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 0px 180px 0px;
+
+    @include media($smallTablet) {
+      padding: 30px 0px 60px 0px;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-family: $primaryFont;
+    @include font-style($size: 2.25rem, $height: 130%);
+    color: var(--var-primary-font-color);
+
+    @include media($smallTablet) {
+      @include font-style($size: 1.5rem, $height: 130%);
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-top: 47px;
+    margin: 0;
+
+    @include media($smallTablet) {
+      grid-template-columns: none;
+      grid-template-rows: repeat(3, 1fr);
+      overflow: hidden;
+      gap: 15px;
+      padding: 20px 0 30px 0;
+    }
+  }
+
+  &__list-item {
+    list-style: none;
+    width: 268px;
+    height: 391px;
+    padding: 15px 15px 0 16px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background: var(--gradient-border-color);
+    box-shadow: inset 0px 0px 0px 100vw var(--var-card-bg);
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+
+  &__slider {
+    display: flex;
+    width: 600px;
+    height: 6px;
+    margin: 20px auto 30px;
+    background-color: var(--light-slider-color);
+    background-clip: padding-box;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -0.5px;
+      border-radius: inherit;
+      background: var(--button-bg-gradient);
+    }
+
+    @include media($smallTablet) {
+      display: none;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: -1;
+    right: -162px;
+    bottom: -132px;
+
+    @include media($smallTablet) {
+      transform: scale(0.26) rotate(0.96turn);
+      right: -200px;
+      bottom: -190px;
+    }
+  }
 }
